@@ -14,8 +14,6 @@ A flexible Python toolkit for generating initial particle conditions for Lagrang
 - **Environmental Flows**: Pollutant dispersion, sediment transport, atmospheric particles
 - **Industrial Processes**: Spray drying, combustion modeling, chemical reactors
 - **Biomedical**: Drug delivery, blood flow particles, respiratory droplets
-- **Multiphase Flows**: Bubble tracking, droplet dynamics, solid particle transport
-- **Material Processing**: Powder flows, granular materials, coating processes
 
 ## Output Format
 Generates `ParticleInitial.dat` with:
@@ -26,15 +24,3 @@ Generates `ParticleInitial.dat` with:
 - Particle density
 - Unique particle IDs
 
-## Use Cases
-- OpenFOAM Lagrangian particle tracking
-- ANSYS Fluent DPM (Discrete Phase Model)
-- COMSOL particle tracing
-- Custom CFD solver particle initialization
-- Experimental validation data generation
-
-## Customization
-- Modify injection geometries (currently configured for respiratory sources)
-- Adjust temporal injection patterns
-- Configure particle properties for specific applications
-- Add new output formats for different CFD solvers
